@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'LBD StartUp Bodyshop',
-  description: 'Building the future of banking',
+  description: 'Building the future ',
 };
 
 export default function RootLayout({

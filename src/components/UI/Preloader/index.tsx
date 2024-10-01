@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import ic_import from '../../../../public/svgs/ic_import.svg';
+import lbd_logo from '../../../../public/images/lbd_logo.png';
 
 import { Wrapper, Inner, SecondOverlay } from './styles';
 import { Dispatch, SetStateAction, useEffect, useRef } from 'react';
@@ -11,7 +11,7 @@ const Preloader = ({
 }: {
   setComplete: Dispatch<SetStateAction<boolean>>;
 }) => {
-  const word = ['R', 'a', 'f', 't'];
+  const word = ['L', 'B', 'D', ''];
 
   const spans = useRef<any>([]); // Create a ref to store the span elements
   const imageRef = useRef(null);
@@ -62,7 +62,7 @@ const Preloader = ({
     <>
       <Wrapper ref={wrapperRef}>
         <Inner>
-          <Image ref={imageRef} src={ic_import} alt="import icon" />
+          <Image ref={imageRef} src={lbd_logo} alt="import icon" />
           <div>
             {word.map((t, i) => (
               <div
