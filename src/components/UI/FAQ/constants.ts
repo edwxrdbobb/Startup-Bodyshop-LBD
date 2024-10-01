@@ -19,22 +19,17 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account withLBD Group?',
+    question: 'How do I enter the startup bodyshop?',
     answer:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
   },
   {
-    question: 'How does LBD Groupensure the security of my financial data?',
+    question: 'How does LBD Group ensure the security of my financial data with Startup Bodyshop?',
     answer:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
   },
   {
-    question: 'What types of transactions can I perform withLBD Group?',
-    answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-  },
-  {
-    question: 'What benefits does LBD Groupoffer for wealth management?',
+    question: 'What benefits does LBD Group StartUp Bodyshop offer for wealth management?',
     answer:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
   },

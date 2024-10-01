@@ -18,9 +18,9 @@ export default function Home() {
       <FoundersStory />
       <OffersSection />
       <FinancilaFreedom />
-      <FinancialFuture />
+      {/* <FinancialFuture />
       <IntroSection />
-      <JoinSection />
+      <JoinSection /> */}
       <FAQ />
     </main>
   );

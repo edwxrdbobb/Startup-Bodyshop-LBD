@@ -10,7 +10,7 @@ import {
   AbsoluteLinks,
   BurgerMenu,
 } from './styles';
-// importLBD Group_logo from '../../../../public/svgs/raft_logo.svg';
+import lbd_logo from '../../../../public/images/lbd_logo.png';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';
@@ -24,7 +24,7 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          {/* <Image src={raft_logo} alt="raft_logo" priority /> */}
+          <Image src={lbd_logo} alt="lbd_logo" priority />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
