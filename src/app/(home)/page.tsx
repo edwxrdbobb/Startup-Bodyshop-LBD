@@ -8,6 +8,7 @@ import {
   IntroSection,
   JoinSection,
   OffersSection,
+  Slider
 } from '@/components';
 
 export default function Home() {
@@ -18,9 +19,10 @@ export default function Home() {
       <FoundersStory />
       <OffersSection />
       <FinancilaFreedom />
-      {/* <FinancialFuture />
-      <IntroSection />
-      <JoinSection /> */}
+      <FinancialFuture />
+      {/* <Slider /> */}
+       {/* <IntroSection /> */}
+      <JoinSection />
       <FAQ />
     </main>
   );

@@ -11,4 +11,5 @@ export { default as FAQ } from './UI/FAQ';
 export { default as Footer } from './UI/Footer';
 export { default as Preloader } from './UI/Preloader';
 export { default as MaskText } from './Common/MaskText';
-export { default as FoundersStory} from './UI/FoundersStory'
+export { default as FoundersStory} from './UI/FoundersStory';
+export { default as Slider} from './UI/Slider';

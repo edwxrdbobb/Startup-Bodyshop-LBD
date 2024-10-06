@@ -1,45 +1,54 @@
 import { StaticImageData } from 'next/image';
-import robert_fox from '../../../../public/images/robert_fox.png';
-import cameron_williamson from '../../../../public/images/cameron_williamson.png';
-import esther_howard from '../../../../public/images/esther_howard.png';
+import jab from '../../../../public/images/jab.png';
+import aan from '../../../../public/images/aan.png';
+import fk from '../../../../public/images/fk.png';
+import rk from '../../../../public/images/rk.png';
+import jtb from '../../../../public/images/jtb.png';
+import db from '../../../../public/images/db.png';
 
 export type Props = {
   testimony: string;
   person: string;
+  role: string;
   avatar: StaticImageData;
 };
 
 export const testimonials = [
   {
     testimony:
-      "LBD Grouphas transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
-    person: 'Robert Fox',
-    avatar: robert_fox,
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero consequatur doloremque in perferendis et sunt nisi autem. Ea, voluptatum.",
+    person: 'Joe Abass Bangura',
+    role: 'Team Lead',
+    avatar: jab,
   },
   {
     testimony:
-      "I can't express how grateful I am toLBD Group. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
-    person: 'Cameron Williamson',
-    avatar: cameron_williamson,
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero consequatur doloremque in perferendis et sunt nisi autem. Ea, voluptatum.",
+    person: 'Abdul Aziz Nasser',
+    role: 'Business Manager',
+    avatar: aan,
   },
   {
     testimony:
-      "RAFT's financial planning services have been a lifeline for me. I always struggled with managing my money, but their team crafted a tailored plan that addressed my goals and concerns. It's been a game-changer in achieving my financial dreams",
-    person: 'Esther Howard',
-    avatar: esther_howard,
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero consequatur doloremque in perferendis et sunt nisi autem. Ea, voluptatum.",
+    person: 'Foday Kamara',
+    role: 'Programme Lead',
+    avatar: fk,
   },
   {
     testimony:
-      "I can't express how grateful I am toLBD Group. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
-    person: 'Cameron Williamson',
-    avatar: cameron_williamson,
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero consequatur doloremque in perferendis et sunt nisi autem. Ea, voluptatum.",
+    person: 'Ricanald King',
+    role: 'Financial Mgt Expert',
+    avatar: rk,
   },
   {
     testimony:
-      "LBD Grouphas transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
-    person: 'Robert Fox',
-    avatar: robert_fox,
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero consequatur doloremque in perferendis et sunt nisi autem. Ea, voluptatum.",
+    person: 'Jethro Tolu Bade',
+    role: 'Brand Expert',
+    avatar: jtb,
   },
 ];
 
-export const desktopHeaderPhrase = ['Join over 3 million', 'members'];
+export const desktopHeaderPhrase = ['Meet our dedicate team', 'members'];

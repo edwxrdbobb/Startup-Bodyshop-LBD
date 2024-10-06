@@ -24,16 +24,6 @@ export const Header = styled.header`
     font-weight: 400;
   }
 
-  h2 {
-    font-size: 2.85rem;
-    font-weight: 400;
-  }
-
-    h3 {
-    font-size: 1.89rem;
-    font-weight: 400;
-  }
-
   p {
     max-width: 41.75rem;
     color: var(--link-color);
@@ -121,7 +111,7 @@ export const Card = styled.div`
     background: #131313;
     border: 1px solid var(--stroke, rgba(255, 255, 255, 0.04));
     border-radius: 15px;
-    filter: grayscale(0.5); // Start with grayscale
+    filter: grayscale(1); // Start with grayscale
     transition: filter 400ms ease, transform 400ms ease; // Smooth transition for image grayscale
     cursor: pointer;
   }
@@ -225,11 +215,6 @@ export const Stats = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  h3{
-    color: var(--sky-blue);
-    font-szie: 1.5rem;
-    font-weight: bold;
-  }
   @media (max-width: 768px) {
     margin: 3.75rem auto;
   }
@@ -292,11 +277,4 @@ export const Banner = styled.div`
       object-fit: contain;
     }
   }
-`;
-
-export const Charts = styled.div`
-  display: flex;
-  justify-content:  center;
-  align-items: center;
-  width: 450px;
 `;

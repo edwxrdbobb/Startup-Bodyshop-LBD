@@ -48,6 +48,7 @@ const JoinSection = () => {
         <Header>
           <MaskText phrases={desktopHeaderPhrase} tag="h1" />
         </Header>
+        
         <TestimonialWrapper>
           {mappedTestimonials.map((t, i) => (
             <Testimonial key={i}>
@@ -55,7 +56,7 @@ const JoinSection = () => {
               <UserInfo>
                 <Name>
                   <MaskText phrases={new Array(t.person)} tag="h3" />
-                  <MaskText phrases={new Array('Happy LBD GroupUser')} tag="p" />
+                  <MaskText phrases={new Array(t.role)} tag="p" />
                 </Name>
                 <Avatar>
                   <Image src={t.avatar} alt="user avatar" />

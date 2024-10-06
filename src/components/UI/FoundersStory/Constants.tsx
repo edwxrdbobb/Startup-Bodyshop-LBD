@@ -27,7 +27,7 @@ export const offers = [
         illustration: null,
         title: 'My Journey: From GCE O Level Failure to Chartered Certified Accountant',
         details:
-        "The Life-By-Design Startup Bodyshop stands as a testament to the power of vision, resilience, and unwavering commitment spanning over three decades. Our story is one of remarkable triumph against all odds, and it's a story we areexcited to share with you. <br /> ",
+        "The Life-By-Design Startup Bodyshop stands as a testament to the power of vision, resilience, and unwavering commitment spanning over three decades. Our story is one of remarkable triumph against all odds, and it's a story we areexcited to share with you. ",
     },
 
 ];

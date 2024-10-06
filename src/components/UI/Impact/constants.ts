@@ -28,26 +28,27 @@ export const cardsInfo = [
 
 export const stats = [
   {
-    number: '1204+',
-    subtitle: 'Male',
-    percentage: '47%',
+    number: '50+',
+    subtitle: 'cities',
   },
   {
-    number: '1332+',
-    subtitle: 'Female',
-    percentage: '53%',
+    number: '50,000+',
+    subtitle: 'transactions',
   },
   {
-    number: '2536',
-    subtitle: 'Total',
-    percentage: '100%',
+    number: '3M+',
+    subtitle: 'users',
+  },
+  {
+    number: '5+',
+    subtitle: 'user ratings',
   },
 ];
 
 // For desktop
 export const desktopHeaderPhrase = [
-  'Value Added',
-  'Services',
+  'Impact Data of Entrepreneurs',
+  'We Have Served to Date',
 ];
 export const desktopParagraphPhrase = [
   "LBD Group's StartUp Body Shop gives founder a linear add value",
@@ -63,34 +64,3 @@ export const mobileParagraphPhrase = [
  "LBD Group's StartUp Body Shop gives founder a linear add value",
   'by offering services like branding, marketing and advertising',
 ];
-
-export const statTitleDesktop = [
-   'Impact data of entrepreneurs', 'we have served to date'
-]
-
-export const statSubTitleDesktop = [
-  'Over the last decade, LBD Startup BodyShop has worked with',
-  'and equipped 2,536 businesses and entrepreneurs in the',
-  'country, 47% of whom are male and 53% female. '
-]
-
-export const statTitleMobile = [
-  'Impact data of entrepreneurs', 'we have served to date'
-]
-
-export const statSubTitleMobile = [
-  'Over the last decade, LBD Startup BodyShop has worked with',
-  'and equipped 2,536 businesses and entrepreneurs in the',
-  'country, 47% of whom are male and 53% female. '
-]
-
-export const chartData = {
-  labels: ['Label 1', 'Label 2', 'Label 3'], // Example labels
-  datasets: [
-      {
-          label: 'My Dataset',
-          data: [12, 19, 3], // Example data
-          backgroundColor: 'rgba(75, 192, 192, 0.6)',
-      },
-  ],
-};
