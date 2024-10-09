@@ -1,4 +1,5 @@
 import {
+  CaseStudy,
   FAQ,
   Featured,
   FinancialFuture,
@@ -19,6 +20,7 @@ export default function Home() {
       <FoundersStory />
       <OffersSection />
       <FinancilaFreedom />
+      <CaseStudy />
       <FinancialFuture />
       {/* <Slider /> */}
        {/* <IntroSection /> */}

@@ -116,10 +116,10 @@ const FinancialFuture = () => {
           ))}
         </Stats>
         <div>
-            <Charts>
-                {/* <Piechart data={chartData} /> */}
+             {/* <Charts>
+                <Piechart data={chartData} /> 
                 <PolarChart stats={stats} />
-            </Charts>
+            </Charts> */}
           </div>
         
       </Inner>

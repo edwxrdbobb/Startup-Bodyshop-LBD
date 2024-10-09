@@ -44,15 +44,15 @@ const FinancialFreedom = () => {
       <Inner>
         <Header>
           {isMobile ? (
-            <>
+            <div>
               <MaskText phrases={mobileHeaderPhrase} tag="h1" />
               <MaskText phrases={mobileParagraphPhrase} tag="p" />
-            </>
+            </div>
               ) : (
-            <>
+            <div>
               <MaskText phrases={desktopHeaderPhrase} tag="h1" />
               <MaskText phrases={desktopParagraphPhrase} tag="p" />
-            </>
+            </div>
           )}
         </Header>
         <BannerCtn>

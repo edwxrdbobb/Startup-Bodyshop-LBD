@@ -13,3 +13,4 @@ export { default as Preloader } from './UI/Preloader';
 export { default as MaskText } from './Common/MaskText';
 export { default as FoundersStory} from './UI/FoundersStory';
 export { default as Slider} from './UI/Slider';
+export { default as CaseStudy } from './UI/CaseStudy'; 
