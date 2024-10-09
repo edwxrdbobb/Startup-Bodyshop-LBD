@@ -34,8 +34,8 @@ import {
   statSubTitleMobile,
   chartData
 } from './constants';
-import Piechart from '@/components/Common/Chart/PieChart';
-import PolarChart from '@/components/Common/Chart/PolarChart';
+// import Piechart from '@/components/Common/Chart/PieChart';
+// import PolarChart from '@/components/Common/Chart/PolarChart';
 
 gsap.registerPlugin(ScrollTrigger);
 
