@@ -20,7 +20,7 @@ export default function Home() {
       <FoundersStory />
       <OffersSection />
       <FinancilaFreedom />
-      <CaseStudy />
+      {/* <CaseStudy /> */}
       <FinancialFuture />
       {/* <Slider /> */}
        {/* <IntroSection /> */}
