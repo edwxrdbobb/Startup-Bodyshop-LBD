@@ -8,6 +8,8 @@ import {
   OfferCard,
   ImageCtn,
   TextCtn,
+  CentImg
+
 } from './styles';
 import MaskText from '@/components/Common/MaskText';
 import { useIsMobile } from '../../../../libs/useIsMobile';
@@ -48,9 +50,11 @@ const OffersSection = () => {
         <Offers>
           {offers.slice(2, 4).map((offer, i) => (
             <OfferCard key={i}>
-              <ImageCtn>
-                <Image src={offer.illustration} alt="illustration" />
-              </ImageCtn>
+              <CentImg>
+                <ImageCtn>
+                  <Image src={offer.illustration} alt="illustration" />
+                </ImageCtn>
+              </CentImg>
               <TextCtn>
                 <MaskText phrases={new Array(offer.title)} tag="h2" />
                 <p>{offer.details}</p>
