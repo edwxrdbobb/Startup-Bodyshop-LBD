@@ -7,7 +7,7 @@ export const Wrapper = styled.section``;
 export const Inner = styled.div`
   max-width: 1440px;
   width: 90%;
-  margin: 12.38rem auto 0;
+  margin: 5.2rem auto 0;
 
   @media (max-width: 768px) {
     margin-top: 6.44rem;
@@ -57,11 +57,12 @@ export const ImageCtn = styled.div`
     position: absolute;
     content: '';
     width: 100%;
-    background: linear-gradient(180deg, rgba(19, 19, 19, 0) 0%, #131313 105%);
+    background: linear-gradient(180deg, rgba(19, 19, 19, 0) 0%, var(link-color) 90%);
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
+    filter: opacity(0.5)
   }
 
   img {
@@ -92,20 +93,24 @@ export const TextCtn = styled.div`
   flex-direction: column;
   gap: 1rem;
   margin-top: auto;
-  
+
   h2 {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2.15rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 3.15rem;
+    color:white;
+
   }
 
   p {
-    color: var(--link-color);
-    font-size: 1rem;
+    color: white;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5rem;
+    filter: opacity(0.8);
+      
   }
-
+  
   @media (max-width: 768px) {
     padding: 1.5rem;
     h2 {
@@ -187,15 +192,25 @@ export const Offers = styled.div`
 
 export const OfferCard = styled.div`
   overflow: hidden;
-  height: 31.25rem;
+  height: 32.25rem;
   border-radius: 0.75rem;
   border: 1px solid var(--stroke, rgba(255, 255, 255, 0.04));
   display: flex;
   flex-direction: column;
-  background: url(${grid_background.src}) #131313 no-repeat;
+  background: url(${grid_background.src}) var(--sky-blue) no-repeat;
 
   &:first-child {
     flex: 2;
+    background-color: #f4f4f4;
+
+    h2{
+      color: var(--text-black)
+    }
+
+    p{
+      color: var(--text-black)
+    }
+    
   }
 
   &:nth-child(2) {

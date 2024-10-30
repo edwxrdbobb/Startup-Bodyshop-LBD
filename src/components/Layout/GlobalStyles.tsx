@@ -4,13 +4,14 @@ const styled = { createGlobalStyle };
 
 export const GlobalStyles = styled.createGlobalStyle`
   :root {
-    --Background: #070606;
-    --white: #fff;
+    --Background: #fffff;
+    --white: #000;
     --light-gray: #dcdcdc;
     --link-color: #bdbdbd;
     --sky-blue : #03a9f4;
     --deep-blue: #0085ad;
     --dark-text: '#5b5b5b';
+    --white-text: '#ffffff';
   }
 
   * {

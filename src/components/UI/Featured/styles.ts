@@ -12,7 +12,7 @@ export const Inner = styled.div`
     font-size: 1.25rem;
     font-weight: 500;
     text-transform: uppercase;
-    margin-top: 6.5rem;
+    margin-top: 2.5rem;
   }
 
   @media (max-width: 768px) {
@@ -51,12 +51,10 @@ export const ImageContainer = styled.div`
 
 export const ParallaxImages = styled.div`
     position: relative;
-    max-width: 53.7rem;
     margin: 3rem auto 0;
-    filter: grayscale(1);
 
   img{
-    filter: invert(1)
+    
   }
 `;
 
@@ -104,11 +102,10 @@ export const Header = styled.header`
   align-items: center;
   gap: 1.5rem;
   text-align: center;
-  max-width: 56rem;
-  margin: 0 auto 6.75rem;
   padding-top: 2rem;
+  margin: 4.75rem 0;
 
-  h1 {
+  h3 {
     font-size: 4.75rem;
     font-weight: 400;
   }
