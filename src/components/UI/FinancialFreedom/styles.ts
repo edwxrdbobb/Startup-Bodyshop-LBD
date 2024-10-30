@@ -184,13 +184,13 @@ export const AddedEdge = styled.div`
 
 export const Title = styled.div`
   display: flex;
-  gap: 0.5rem;
+  gap: .5rem;
   align-items: center;
-
+  margin-bottom: 1rem;
   h3 {
     font-size: 1.5rem;
     font-weight: 500;
-    color: var(--white);
+    color: white;
   }
 `;
 
