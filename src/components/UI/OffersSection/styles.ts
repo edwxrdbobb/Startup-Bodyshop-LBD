@@ -63,15 +63,15 @@ export const ImageCtn = styled.div`
   width: 250px !important;
   height: 250px !important;
 
-  &::after {
-    position: absolute;
-    content: '';
-    height: 13.4375rem;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(19, 19, 19, 0) 0%, #ffffff 100%);
-    left: 0;
-    top: 50px;
-  }
+  // &::after {
+  //   position: absolute;
+  //   content: '';
+  //   height: 13.4375rem;
+  //   width: 100%;
+  //   background: linear-gradient(180deg, rgba(19, 19, 19, 0) 0%, #ffffff 100%);
+  //   left: 0;
+  //   top: 50px;
+  // }
 
   img {
     width: 100%;
